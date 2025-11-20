@@ -11,7 +11,6 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-Real--time-010101?style=flat&logo=socket.io&logoColor=white)](https://socket.io/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat&logo=mongodb&logoColor=white)](https://mongodb.com/)
 
-[🔥 Live Demo](#) • [📚 Documentation](#) • [🐛 Report Bug](#) • [✨ Request Feature](#)
 
 </div>
 
