@@ -11,7 +11,6 @@
 [![Socket.IO](https://img.shields.io/badge/Socket.IO-Real--time-010101?style=flat&logo=socket.io&logoColor=white)](https://socket.io/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat&logo=mongodb&logoColor=white)](https://mongodb.com/)
 
-[🔥 Live Demo](#) • [📚 Documentation](#) • [🐛 Report Bug](#) • [✨ Request Feature](#)
 
 </div>
 
@@ -340,18 +339,7 @@ We love contributions! Here's how you can help:
 
 
 
-## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
----
-
-<div align="center">
-
-**⭐ Star this repo if you found it helpful! ⭐**
-
-Made with ❤️ by [Your Name](https://github.com/yourusername)
-
-[🔗 Website](https://yourwebsite.com) • [📧 Email](mailto:your@email.com) • [🐦 Twitter](https://twitter.com/yourusername)
 
 </div>
