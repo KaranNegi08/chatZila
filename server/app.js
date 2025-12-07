@@ -31,6 +31,12 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get("/", (req,res) =>{
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+})
+
 // Create uploads directory if it doesn't exist
 const uploadsDir = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadsDir)) {
