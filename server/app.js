@@ -21,13 +21,19 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "http://51.20.37.255",
     methods: ["GET", "POST"]
   }
 });
 
+
 // Middleware
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: process.env.CLIENT_URL || 'http://51.20.37.255',
+  credentials: true
+}));
+
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
