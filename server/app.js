@@ -53,7 +53,7 @@ if (!fs.existsSync(uploadsDir)) {
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/chatapp', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/chatZilla', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
